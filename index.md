@@ -2,13 +2,13 @@
 title: Home
 ---
 
-# Privacy Policy — Break Reminder
+# Privacy Policy - POP
 
 **Last updated:** June 2026
 
 ## Summary
 
-Break Reminder does not collect, store, transmit, or share any personal data. Everything the extension needs to function is stored locally in your own browser, using Chrome's built-in `storage.local` API. No data ever leaves your device.
+POP does not collect, store, transmit, or share any personal data. Everything the extension needs to function is stored locally in your own browser, using Chrome's built-in `storage.local` API. No data ever leaves your device.
 
 ## What data is stored locally
 
@@ -50,7 +50,7 @@ None of these permissions are used to read, log, or transmit the content of the 
 
 ## Remote code
 
-This extension does not execute any remotely hosted code. All JavaScript — including the bundled Chart.js library used to render the analytics page — ships inside the extension package itself and is reviewed as part of the Chrome Web Store submission. No scripts are fetched from external URLs at runtime.
+This extension does not execute any remotely hosted code. All JavaScript - including the bundled Chart.js library used to render the analytics page - ships inside the extension package itself and is reviewed as part of the Chrome Web Store submission. No scripts are fetched from external URLs at runtime.
 
 ## Single purpose
 
@@ -61,7 +61,7 @@ This extension has a single purpose: to periodically remind users to take short 
 The Chrome Web Store "Privacy practices" tab asks for a plain-language justification for each requested permission. Use the text below directly in those fields.
 
 **Single purpose description:**
-> Break Reminder periodically displays a brief, dismissible overlay to remind users to take short breaks from their screen — for example, to drink water, stretch, walk, or rest their eyes. This is the extension's only function.
+> POP periodically displays a brief, dismissible overlay to remind users to take short breaks from their screen — for example, to drink water, stretch, walk, or rest their eyes. This is the extension's only function.
 
 **`alarms` justification:**
 > Used to reliably schedule break reminders at a user-configured interval (default 30 minutes), even when the service worker has been unloaded. The Alarms API is the only mechanism that guarantees this timing persists across browser idle periods and service worker restarts under Manifest V3.
