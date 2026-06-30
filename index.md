@@ -1,6 +1,6 @@
 # Privacy Policy — Break Reminder
 
-**Last updated:** June 2026
+**Last updated:** June 2026 - v1.0.0
 
 ## Summary
 
